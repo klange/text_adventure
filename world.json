@@ -1,6 +1,6 @@
 {
     "current_room": "Room 1",
-    "current_health": 10,
+    "current_health": 5,
     "inventory": [],
     "rooms": {
         "Room 1": {
