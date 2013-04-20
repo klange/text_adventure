@@ -1,0 +1,56 @@
+{
+    "current_room": "Room 1",
+    "current_health": 10,
+    "inventory": [],
+    "rooms": {
+        "Room 1": {
+            "description": "A chat room named #Fredrin.",
+            "exits": {
+                "north": {
+                     "target": "Room 2",
+                     "locked": 0,
+                     "key":    null
+                }
+            },
+            "monsters": {},
+            "contents": ["key of awesome"]
+        },
+        "Room 2": {
+            "description": "the #ubuntu chatroom.",
+            "exits": {
+                 "south": {
+                     "target": "Room 1",
+                     "locked": 0,
+                     "key": null
+                 },
+                 "east": {
+                    "target": "Room 3",
+                    "locked": 1,
+                    "key": "key of awesome"
+                 }
+            },
+            "monsters": {},
+            "contents": ["sword of cool"]
+        },
+        "Room 3": {
+            "description": "the pit of hell",
+            "exits": {
+                 "west": {
+                    "target": "Room 2",
+                    "locked": 0,
+                    "key": null
+                 }
+            },
+            "monsters": {
+                "rat": {
+                    "hp": 2,
+                    "power": 1,
+                    "says": "*scurry scurry scurry*"
+                }
+            },
+            "contents": []
+        }
+    }
+}
+
+
